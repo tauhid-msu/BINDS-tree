@@ -1,0 +1,2 @@
+# BINDS-tree
+A space-partitioning based indexing structure for k-mer search using box queries. This indexing strucutre was optimized for filtering exact matching box queries where each dimension of a box query can have a subset of the alpabet. We used the space-partitioning based approach to improve fitering at higher levels of the index. Despite lower space utilization compared to data-partitioing baesd indexing, the query I/O and time was considerably good than that of the existing disk resident k-mer indxing structures.
